@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&family=Roboto:wght@100;500&family=Zen+Dots&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Zen Dots', cursive;
+}
+body{
+    background-color: #ced6e0;
+}
+.container{
+height: 100vh;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.inner_container{
+    /* height: 200px; */
+    background-color: #f1f2f6;
+    border: 2px solid #f1f2f6;
+    width: 40%;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 5px;
+}
+.inner_container h3{
+    margin-bottom: 15px;
+}
+.inner_container input{
+    margin: 5px;
+}
+button{
+    margin-top: 15px;
+    padding: 5px;
+    width: 100%;
+    background-color: #74b9ff;
+    outline: none;
+    border-radius: 2px;
+    border: #74b9ff;
+}
+button:hover{
+    background-color:#0984e3;
+}
